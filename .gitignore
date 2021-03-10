@@ -1,0 +1,13 @@
+.tox
+.venv
+*.egg-info
+htmlcov
+.coverage
+coverage.xml
+__pycache__
+*.pyc
+.vscode/*
+!.vscode/cspell.json
+.pytest_cache
+build
+dist

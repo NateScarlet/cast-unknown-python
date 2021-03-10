@@ -1,0 +1,6 @@
+[run]
+include = ./cast_unknown/*
+omit = 
+    */tests/*
+    */site-packages/*
+    */.tox/*
