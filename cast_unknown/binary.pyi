@@ -1,8 +1,10 @@
-from typing import Any, TypeVar
+from typing import Any
 
 import six
 
-T = TypeVar("T")
 
-
-def binary(v: Any, encoding: six.text_type = ..., errors: six.text_type = ...) -> six.binary_type: ...
+def binary(
+    v: Any,
+    encoding: six.text_type = ...,
+    errors: six.text_type = ...,
+) -> six.binary_type: ...
