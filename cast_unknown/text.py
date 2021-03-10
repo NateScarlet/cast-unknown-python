@@ -8,12 +8,11 @@ import six
 
 def text(v, encoding='utf-8', errors='strict'):
     """Cast value  to text type, 
-    will try auto detect encoding when can not decode with given encoding.
 
     Args:
         v (typing.Any): value
-        encoding (str, optional): expected encoding. Defaults to 'utf-8'.
-        errors (str, optional): decode error setting. Defaults to 'strict'.
+        encoding (str, optional): encoding when value is binary. Defaults to 'utf-8'.
+        errors (str, optional): decode error setting when value is binary. Defaults to 'strict'.
 
     Returns:
         str: decoded value.
