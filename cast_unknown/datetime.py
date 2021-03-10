@@ -7,6 +7,7 @@ from __future__ import (absolute_import, division, print_function,
 import datetime as dt
 
 import dateutil.parser
+import six
 
 from .text import text
 
@@ -23,7 +24,7 @@ def datetime_at(v, at):
     assert isinstance(at, dt.datetime)
     if isinstance(v, float):
         return dt.datetime.utcfromtimestamp(v)
-    if isinstance(v, int):
+    if isinstance(v, six.integer_types):
         return dt.datetime.utcfromtimestamp(v/1e3)
     if isinstance(v, dt.datetime):
         return v
@@ -40,6 +41,7 @@ def datetime_at(v, at):
             v.microsecond,
             v.tzinfo
         )
+    print(type(v))
     return dateutil.parser.parse(text(v))
 
 
