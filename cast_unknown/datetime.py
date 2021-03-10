@@ -12,6 +12,14 @@ from .text import text
 
 
 def datetime_at(v, at):
+    """Cast value to datetime use given time.
+
+    Args:
+        v (typing.Any): Value
+
+    Returns:
+        dt.datetime: convert result
+    """
     assert isinstance(at, dt.datetime)
     if isinstance(v, float):
         return dt.datetime.utcfromtimestamp(v)
@@ -36,4 +44,12 @@ def datetime_at(v, at):
 
 
 def datetime(v):
+    """Cast value to datetime use current time.
+
+    Args:
+        v (typing.Any): Value
+
+    Returns:
+        dt.datetime: convert result
+    """
     return datetime_at(v, dt.datetime.now())
