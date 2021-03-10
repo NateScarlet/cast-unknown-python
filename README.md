@@ -1,5 +1,10 @@
 # cast-unknown-python
 
+[![Action: Python package](https://github.com/NateScarlet/cast-unknown-python/actions/workflows/python-package.yml/badge.svg)](https://github.com/NateScarlet/cast-unknown-python/actions/workflows/python-package.yml)
+![version](https://img.shields.io/pypi/v/cast-unknown)
+![python versions](https://img.shields.io/pypi/pyversions/cast-unknown)
+![wheel](https://img.shields.io/pypi/wheel/cast-unknown)
+
 Cast unknown value to desired type with typing support.
 
 Current supported cast target:
