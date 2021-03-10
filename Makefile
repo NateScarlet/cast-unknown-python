@@ -4,13 +4,11 @@ default: build
 
 
 .venv/.sentinel: requirements.txt dev-requirements.txt .venv
-	. ./scripts/activate-venv.sh &&\
-		python -m pip install -U pip &&\
-		python -m pip install -r dev-requirements.txt
+	./scripts/install-deps-to-venv.sh
 	touch $@
 
 .venv:
-	virtualenv --python 3.8 .venv
+	virtualenv --python 3 .venv
 
 test: .venv/.sentinel
 	. ./scripts/activate-venv.sh &&\
