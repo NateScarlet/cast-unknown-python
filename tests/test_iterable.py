@@ -16,6 +16,14 @@ def test_list():
     assert cast.iterable([1, 2, 3]) == [1, 2, 3]
 
 
+def test_text():
+    assert cast.iterable("abc") == "abc"
+
+
+def test_binary():
+    assert cast.iterable(b"abc") == b"abc"
+
+
 def test_generator():
     it = cast.iterable((i for i in (1, 2, 3)))
     assert inspect.isgenerator(it)
