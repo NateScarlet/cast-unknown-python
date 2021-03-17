@@ -14,6 +14,7 @@ Current supported cast target:
 - iterable
 - datetime
 - one (one and the only one item from given iterable, otherwise None)
+- non_none (return default or raise error when given value is None)
 
 ```python-repl
 >>> import cast_unknown as cast
@@ -68,6 +69,16 @@ None
 1
 >>> cast.one([1,2])
 None
+>>> cast.not_none(1)
+1
+>>> cast.not_none(None)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "cast_unknown\not_none.py", line 14, in not_none
+    raise CastError("value and default both None ")
+cast_unknown.error.CastError: value and default both None
+>>> cast.not_none(None, 1)
+1
 ```
 
 ## related
