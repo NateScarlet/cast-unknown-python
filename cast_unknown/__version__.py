@@ -9,12 +9,12 @@ from __future__ import (absolute_import, division, print_function,
 
 from datetime import datetime
 
-VERSION = '0.1.1'
-RELEASE_DATE = datetime.fromtimestamp(1615372019)
-LAST_GIT_COMMIT_DESCRIBE = 'v0.1.0-8-g698684d'
-LAST_GIT_COMMIT_HASH = '698684d345bff86e94e856e026a4ce735ef6d016'
+VERSION = '0.1.2'
+RELEASE_DATE = datetime.fromtimestamp(1615955811)
+LAST_GIT_COMMIT_DESCRIBE = 'v0.1.1-3-g7972ff9'
+LAST_GIT_COMMIT_HASH = '7972ff9bb5273a8c7b7480d90bc2be2a16adbdb4'
 LAST_GIT_COMMIT_AUTHOR_NAME = 'NateScarlet'
 LAST_GIT_COMMIT_AUTHOR_EMAIL = 'NateScarlet@Gmail.com'
-LAST_GIT_COMMIT_AUTHOR_DATE = datetime.fromtimestamp(1615371872)
-LAST_GIT_COMMIT_SUBJECT = 'fix: `datetime` should handle python2 long type'
+LAST_GIT_COMMIT_AUTHOR_DATE = datetime.fromtimestamp(1615955728)
+LAST_GIT_COMMIT_SUBJECT = 'feat: add `not_none`'
 LAST_GIT_COMMIT_BODY = ''
