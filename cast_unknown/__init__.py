@@ -10,7 +10,9 @@ from .iterable import iterable
 from .one import one
 from .datetime import datetime, datetime_at
 from .not_none import not_none
+from .instance import instance
 from .error import CastError
+
 
 __all__ = [
     "text",
@@ -20,5 +22,6 @@ __all__ = [
     "datetime",
     "datetime_at",
     "not_none",
+    "instance",
     "CastError",
 ]
