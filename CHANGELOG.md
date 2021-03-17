@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.3](https://github.com/NateScarlet/cast-unknown-python/compare/v0.1.2...v0.1.3) (2021-03-17)
+
+### Features
+
+- add `instance` cast ([bb328db](https://github.com/NateScarlet/cast-unknown-python/commit/bb328dbc2a12b948a5bd18fcd1b1227b2674eb7b))
+
 ## [0.1.2](https://github.com/NateScarlet/cast-unknown-python/compare/v0.1.1...v0.1.2) (2021-03-17)
 
 ### Features
