@@ -41,7 +41,6 @@ def datetime_at(v, at):
             v.microsecond,
             v.tzinfo
         )
-    print(type(v))
     return dateutil.parser.parse(text(v))
 
 
