@@ -41,7 +41,7 @@ def datetime_at(v, at):
             v.microsecond,
             v.tzinfo
         )
-    return dateutil.parser.parse(text(v))
+    return dateutil.parser.parse(text(v), default=at)
 
 
 def datetime(v):
@@ -53,4 +53,6 @@ def datetime(v):
     Returns:
         dt.datetime: convert result
     """
-    return datetime_at(v, dt.datetime.now())
+    today = dt.datetime.now()
+    today = dt.datetime(today.year, today.month, today.day)
+    return datetime_at(v, today)
