@@ -16,9 +16,11 @@ Current supported cast target:
 - one (one and the only one item from given iterable, otherwise None)
 - non_none (return default or raise error when given value is None)
 - instance (raise error when not is instance)
+- list (with optional item type check)
 
 ```python-repl
 >>> import cast_unknown as cast
+>>> import six
 >>> cast.text('测试')
 '测试'
 >>> cast.text('测试'.encode('utf-8'))
@@ -90,6 +92,28 @@ Traceback (most recent call last):
 cast_unknown.error.CastError: ('can not cast object to instance', 1, <class 'str'>)
 >>> cast.instance(1, (str, int))
 1
+>>> cast.list_(None)
+[]
+>>> cast.list_([])
+[]
+>>> cast.list_(1)
+[1]
+>>> cast.list_([1])
+[1]
+>>> cast.list_([1], six.text_type)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "cast_unknown\list.py", line 14, in list_
+    instance(i, class_or_tuple)
+  File "cast_unknown\instance.py", line 23, in instance
+    raise CastError(
+cast_unknown.error.CastError: ('can not cast object to instance', 1, <class 'str'>)
+>>> cast.list_([1], (int, six.text_type))
+[1]
+>>> cast.list_("abc")
+['a', 'b', 'c']
+>>> cast.list_("abc", six.text_type)
+['abc']
 ```
 
 ## related
