@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.5](https://github.com/NateScarlet/cast-unknown-python/compare/v0.1.4...v0.1.5) (2021-05-29)
+
+### Bug Fixes
+
+- should add py.typed marker file ([4ec1126](https://github.com/NateScarlet/cast-unknown-python/commit/4ec1126843f09817b1ae634f1ffbd331ca7ad6e9))
+
 ## [0.1.4](https://github.com/NateScarlet/cast-unknown-python/compare/v0.1.3...v0.1.4) (2021-03-18)
 
 ### Features

@@ -9,12 +9,12 @@ from __future__ import (absolute_import, division, print_function,
 
 from datetime import datetime
 
-VERSION = '0.1.4'
-RELEASE_DATE = datetime.fromtimestamp(1616046177)
-LAST_GIT_COMMIT_DESCRIBE = 'v0.1.3-1-g5ad8f55'
-LAST_GIT_COMMIT_HASH = '5ad8f55e8be33f45922aae5269e61973827854a5'
+VERSION = '0.1.5'
+RELEASE_DATE = datetime.fromtimestamp(1622276969)
+LAST_GIT_COMMIT_DESCRIBE = 'v0.1.4-1-g4ec1126'
+LAST_GIT_COMMIT_HASH = '4ec1126843f09817b1ae634f1ffbd331ca7ad6e9'
 LAST_GIT_COMMIT_AUTHOR_NAME = 'NateScarlet'
 LAST_GIT_COMMIT_AUTHOR_EMAIL = 'NateScarlet@Gmail.com'
-LAST_GIT_COMMIT_AUTHOR_DATE = datetime.fromtimestamp(1616046160)
-LAST_GIT_COMMIT_SUBJECT = 'feat: add `list_` cast'
+LAST_GIT_COMMIT_AUTHOR_DATE = datetime.fromtimestamp(1622276927)
+LAST_GIT_COMMIT_SUBJECT = 'fix: should add py.typed marker file'
 LAST_GIT_COMMIT_BODY = ''
