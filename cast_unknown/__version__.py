@@ -9,12 +9,12 @@ from __future__ import (absolute_import, division, print_function,
 
 from datetime import datetime
 
-VERSION = '0.1.5'
-RELEASE_DATE = datetime.fromtimestamp(1622276969)
-LAST_GIT_COMMIT_DESCRIBE = 'v0.1.4-1-g4ec1126'
-LAST_GIT_COMMIT_HASH = '4ec1126843f09817b1ae634f1ffbd331ca7ad6e9'
+VERSION = '0.1.6'
+RELEASE_DATE = datetime.fromtimestamp(1622821369)
+LAST_GIT_COMMIT_DESCRIBE = 'v0.1.5-1-gdfafabd'
+LAST_GIT_COMMIT_HASH = 'dfafabd44d59b0f64b78ec21afc3891993fbabb7'
 LAST_GIT_COMMIT_AUTHOR_NAME = 'NateScarlet'
 LAST_GIT_COMMIT_AUTHOR_EMAIL = 'NateScarlet@Gmail.com'
-LAST_GIT_COMMIT_AUTHOR_DATE = datetime.fromtimestamp(1622276927)
-LAST_GIT_COMMIT_SUBJECT = 'fix: should add py.typed marker file'
+LAST_GIT_COMMIT_AUTHOR_DATE = datetime.fromtimestamp(1622821329)
+LAST_GIT_COMMIT_SUBJECT = 'fix: should import collections.abc through six'
 LAST_GIT_COMMIT_BODY = ''
