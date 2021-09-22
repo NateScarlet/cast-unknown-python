@@ -9,12 +9,12 @@ from __future__ import (absolute_import, division, print_function,
 
 from datetime import datetime
 
-VERSION = '0.1.6'
-RELEASE_DATE = datetime.fromtimestamp(1622821369)
-LAST_GIT_COMMIT_DESCRIBE = 'v0.1.5-1-gdfafabd'
-LAST_GIT_COMMIT_HASH = 'dfafabd44d59b0f64b78ec21afc3891993fbabb7'
+VERSION = '0.1.7'
+RELEASE_DATE = datetime.fromtimestamp(1632307889)
+LAST_GIT_COMMIT_DESCRIBE = 'v0.1.6-1-g79e0ee6'
+LAST_GIT_COMMIT_HASH = '79e0ee6ff09c96c7dbff9a7c07a2ebe5a62d512d'
 LAST_GIT_COMMIT_AUTHOR_NAME = 'NateScarlet'
 LAST_GIT_COMMIT_AUTHOR_EMAIL = 'NateScarlet@Gmail.com'
-LAST_GIT_COMMIT_AUTHOR_DATE = datetime.fromtimestamp(1622821329)
-LAST_GIT_COMMIT_SUBJECT = 'fix: should import collections.abc through six'
-LAST_GIT_COMMIT_BODY = ''
+LAST_GIT_COMMIT_AUTHOR_DATE = datetime.fromtimestamp(1632307842)
+LAST_GIT_COMMIT_SUBJECT = 'fix(deps): should use compatible version on minor version'
+LAST_GIT_COMMIT_BODY = 'related to https://github.com/pypa/pip/issues/10499'

@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.7](https://github.com/NateScarlet/cast-unknown-python/compare/v0.1.6...v0.1.7) (2021-09-22)
+
+### Bug Fixes
+
+- **deps:** should use compatible version on minor version ([79e0ee6](https://github.com/NateScarlet/cast-unknown-python/commit/79e0ee6ff09c96c7dbff9a7c07a2ebe5a62d512d))
+
 ## [0.1.6](https://github.com/NateScarlet/cast-unknown-python/compare/v0.1.5...v0.1.6) (2021-06-04)
 
 ### Bug Fixes
