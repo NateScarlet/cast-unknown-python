@@ -39,8 +39,8 @@ setup(
     ],
     url='https://github.com/NateScarlet/cast-unknown-python',
     install_requires=[
-        'six~=1.15.0',
-        'python-dateutil~=2.8.1'
+        'six~=1.15',
+        'python-dateutil~=2.8'
     ],
     include_package_data=True,
 )
